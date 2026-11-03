@@ -15,8 +15,8 @@ This has been inspired by a [post on Reddit](https://www.reddit.com/r/koreader/c
 - A USB cable to connect the PocketBook to the computer
 - [pocketbook8bitdo.koplugin](https://github.com/igarizio/pocketbook8bitdo.koplugin) must be installed to map KOReader events that the PocketBook has no dedicated physical key for.
   
-## 8BitDo Scheme keys
-![8BitDo Controller Keys](8BitDo-Micro-Bluetooth-Controller-Keys.jpg)
+## 8BitDo Micro Scheme keys
+![8BitDo Micro Controller Keys](8BitDo-Micro-Bluetooth-Controller-Keys.jpg)
 
 ## Step 1: Pair the controller
 
@@ -58,13 +58,13 @@ Note: steps 4-7 can be simplified by downloading this version of [event_map.lua]
 
 The following configuration maps the controller for one-handed, vertical use (see above image of 8BitDo Controller):
 
-- **Up** opens the table of contents.
-- **Right** turns to the next page.
-- **Left** turns to the previous page.
-- **Down** closes the current menu or dialogue.
-- **L** adds or removes a bookmark on the current page.
-- **Minus** toggles night mode.
-- **Plus** returns to the KOReader file manager (Home).
+- **Up** opens the table of contents (key 18).
+- **Right** turns to the next page (key 46).
+- **Left** turns to the previous page (key 32).
+- **Down** closes the current menu or dialogue (key 33).
+- **L** adds or removes a bookmark on the current page (key 37).
+- **Minus** toggles night mode (key 49).
+- **Plus** returns to the KOReader file manager / Home (key 24).
 
 Create `event_map.lua` with the following contents (on download [here](https://github.com/MJVgeek/8BitDo-Micro-for-PocketBook-KOReader/blob/main/event_map.lua)):
 ```
@@ -89,20 +89,21 @@ return {
     [24] = "Home",                -- Return to the KOReader file manager [Plus]
 } 
 ```
-## Notes
+## Important notes
 - The numeric values are input keycodes, not the characters printed on the controller.
 - The comments in square brackets refer to the physical buttons on the 8BitDo Micro.
 - KOReader must be restarted after saving or editing `event_map.lua`.
 - If a mapping does not work, verify that the controller is still in **K** mode and that the file is saved in the correct `settings` folder.
-- `Back` closes the current dialogue or menu; it does not return to the previous reading location.
-- Event names may vary slightly between KOReader versions. If `ShowTocviaBT` or `ToggleBookmarkviaBT` does not work, check the exact event name at pocketbook8bitdo.koplugin.
+- Make sure you have 8BitDo Micro firmware v1.05.
+- `Back` is set to closes the current dialogue or menu.
+- If `ShowTocviaBT`, `ToggleBookmarkviaBT` or `ToggleNightModeviaBT` do not work, check the exact event name in the pocketbook8bitdo.koplugin (`main.lua`file).
 
 ## Troubleshooting
 
 | Problem | Possible solution |
 |---|---|
-| The controller does not appear in Bluetooth settings | Ensure that it is in **K** mode and that its LED is blinking rapidly in pairing mode. |
-| The controller pairs but does not respond | Reconnect it from **Settings → Bluetooth**, then restart KOReader. Also make sure the 8BitDo Micro firmware is updated to v1.05 |
+| The controller does not appear in Bluetooth settings | Ensure that it is in **K** mode and that its LED is blinking rapidly in pairing mode |
+| The controller pairs but does not respond | Reconnect it from **Settings → Bluetooth**, then restart KOReader |
 | The key mappings do not work | Confirm that the file is named exactly `event_map.lua` and is located in `applications/koreader/settings/` |
 | Changes are not applied | Restart the PocketBook after saving the file |
 | A button performs an unexpected action | Check the keycode and event name; adjust the mapping and restart KOReader |
