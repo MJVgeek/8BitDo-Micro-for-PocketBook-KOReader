@@ -64,7 +64,7 @@ The following configuration maps the controller for one-handed, vertical use (se
 - **Minus** toggles night mode.
 - **Plus** returns to the KOReader file manager (Home).
 
-Create `event_map.lua` with the following contents:
+Create `event_map.lua` with the following contents (on download [here](https://github.com/MJVgeek/8BitDo-Micro-for-PocketBook-KOReader/blob/main/event_map.lua):
 ```
 -- This is the 8BitDo Micro key mapping for KOReader in a PocketBook.
 -- In this case, the controller is held vertically, with the arrow keys at the top and the L/R buttons on the right, like a TV remote.
