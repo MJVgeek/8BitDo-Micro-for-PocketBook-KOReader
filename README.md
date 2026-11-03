@@ -56,7 +56,7 @@ Note: steps 4-7 can be simplified by downloading this version of [event_map.lua]
 
 ## Key mapping
 
-The following configuration maps the controller for one-handed, vertical use (see image of 8BitDo Controller):
+The following configuration maps the controller for one-handed, vertical use (see above image of 8BitDo Controller):
 
 - **Up** opens the table of contents.
 - **Right** turns to the next page.
