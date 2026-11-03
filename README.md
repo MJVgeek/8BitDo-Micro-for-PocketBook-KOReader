@@ -15,6 +15,9 @@ This has been inspired by a [post on Reddit](https://www.reddit.com/r/koreader/c
 - A USB cable to connect the PocketBook to the computer
 - To have [pocketbook8bitdo.koplugin](https://github.com/igarizio/pocketbook8bitdo.koplugin) installed to be able to map the KOReader events that have no dedicated key in the PocketBook.
 
+## 8BitDo Scheme keys
+![8BitDo Controller Keys](8BitDo-Micro-Bluetooth-Controller-Keys.jpg)
+
 ## Step 1: Pair the controller
 
 1. Set the 8BitDo Micro’s mode switch to **K** (Keyboard mode). The other modes will not work for this purpose.
