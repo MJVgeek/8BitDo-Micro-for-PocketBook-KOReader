@@ -5,6 +5,8 @@ It has been confirmed to work on the **PocketBook InkPad 4**.
 
 The controller is held vertically, with the directional buttons at the top and the **L/R** buttons on the right, like a television remote.
 
+This has been inspired by a [post on Reddit](https://www.reddit.com/r/koreader/comments/1ge7eje/comment/lvelsqi/). 
+
 ## Requirements
 
 - A PocketBook e-reader running KOReader (updated version of [KOReader](https://github.com/koreader/koreader/releases))
@@ -94,8 +96,8 @@ return {
 
 | Problem | Possible solution |
 |---|---|
-| The controller does not appear in Bluetooth settings | Ensure that it is in **K** mode and that its LED is blinking rapidly in pairing mode |
-| The controller pairs but does not respond | Reconnect it from **Settings → Bluetooth**, then restart KOReader |
+| The controller does not appear in Bluetooth settings | Ensure that it is in **K** mode and that its LED is blinking rapidly in pairing mode. |
+| The controller pairs but does not respond | Reconnect it from **Settings → Bluetooth**, then restart KOReader. Also make sure the 8BitDo Micro firmware is updated to v1.05 |
 | The key mappings do not work | Confirm that the file is named exactly `event_map.lua` and is located in `applications/koreader/settings/` |
 | Changes are not applied | Restart the PocketBook after saving the file |
 | A button performs an unexpected action | Check the keycode and event name; adjust the mapping and restart KOReader |
