@@ -13,7 +13,8 @@ This has been inspired by a [post on Reddit](https://www.reddit.com/r/koreader/c
 - An 8BitDo Micro controller (IMPORTANT: update to Firmware v1.05 [here](https://support.8bitdo.com/firmware-updater.html))
 - A computer with a plain-text or code editor, such as CotEditor (macOS), Notepad++ (Windows), or Visual Studio Code, Kate, or Gedit (Linux)
 - A USB cable to connect the PocketBook to the computer
-- [pocketbook8bitdo.koplugin](https://github.com/igarizio/pocketbook8bitdo.koplugin) must be installed to map KOReader events that the PocketBook has no dedicated key for. 
+- [pocketbook8bitdo.koplugin](https://github.com/igarizio/pocketbook8bitdo.koplugin) must be installed to map KOReader events that the PocketBook has no dedicated physical key for.
+  
 ## 8BitDo Scheme keys
 ![8BitDo Controller Keys](8BitDo-Micro-Bluetooth-Controller-Keys.jpg)
 
