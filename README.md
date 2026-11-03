@@ -5,7 +5,7 @@ It has been confirmed to work on the **PocketBook InkPad 4**.
 
 The controller is held vertically, with the directional buttons at the top and the **L/R** buttons on the right, like a television remote.
 
-This has been inspired by a [post on Reddit](https://www.reddit.com/r/koreader/comments/1ge7eje/comment/lvelsqi/). 
+This has been inspired by a [post on Reddit](https://www.reddit.com/r/koreader/comments/1ge7eje/comment/lvelsqi/) and my own struggle to have the controller working as a remote. Basically I wanted to keep a clear guide for the 8BitDo Micro remote system.
 
 ## Requirements
 
