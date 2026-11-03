@@ -45,12 +45,14 @@ To create the file:
 3. Navigate to `applications/koreader/settings/`.
 4. Create a new file named `event_map.lua`.
 5. Open it in a plain-text or code editor.
-6. Copy and paste the mapping below.
+6. Copy and paste the key mapping below.
 7. Save the file.
 8. Safely eject the PocketBook.
 9. Wait until the PocketBook desktop appears, then unplug the USB cable.
 10. Restart the PocketBook.
 11. Reconnect the controller and launch KOReader.
+
+Note: steps 4-7 can be simplified by downloading this version of [event_map.lua](https://github.com/MJVgeek/8BitDo-Micro-for-PocketBook-KOReader/blob/main/event_map.lua) and placing it in `applications/koreader/settings/`. Then proceed to steps 8–11.
 
 ## Key mapping
 
