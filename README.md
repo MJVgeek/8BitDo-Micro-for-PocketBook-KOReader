@@ -1,4 +1,4 @@
-# 8BitDo-Micro-for-PocketBook-KOReader
+# 8BitDo Micro for PocketBook KOReader (remote control)
 This guide explains how to use an **8BitDo Micro** controller as a bluetooth remote for **KOReader** on a PocketBook e-reader. 
 
 It has been confirmed to work on the **PocketBook InkPad 4**.
